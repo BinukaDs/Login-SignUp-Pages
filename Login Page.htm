@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="stylesheet" href="Assets/Style/Login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!--Your website's icon-->
+    <link rel="icon" href="Assets/Images/login.jpg">
+    
+    <!--Your webiste's font source link-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!--Page title-->
+    <title>Log-in</title>
+
+  </head>
+
+  <!--background image-->
+  <body style="background-image: url('Assets/Images/programmer.gif')">
+
+    <div class="main">
+      <h2 class="login">Log-in</h2>
+
+      <form>
+        <label for="email">E-mail:</label><br />
+        <input
+          type="email"
+          id="e-mail"
+          name="e-mail"
+          placeholder="Someone@example.com"
+          onclick="this.value=''"
+        /><br />
+
+        <label for="Password">Password:</label><br />
+        <input
+          type="text"
+          id="Password"
+          name="Password"
+          onfocus="this.value=''"
+          placeholder="Password"
+        /><br />
+      </form>
+
+      <button type="submit"><p>Log-in</p></button>
+
+      <p class="signup_link">
+        Don’t have an account yet? <a href="Sign Up Page.htm">Sign-up.</a>
+      </p>
+
+      <section class="icons">
+        <a href="Your Facebook link"
+          ><img
+            src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"
+        /></a>
+
+        <a href="Your Twitter link "
+          ><img src="https://img.icons8.com/ios-filled/50/000000/twitter.png"
+        /></a>
+
+        <a href="Your Instagram link"
+          ><img
+            src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png"
+        /></a>
+      </section>
+    </div>
+  </body>
+</html>

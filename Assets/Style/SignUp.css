@@ -1,0 +1,173 @@
+body {
+  background-repeat: no-repeat;
+  background-size: fit;
+  display: flex;
+  /*your website's font*/
+  font-family: "Quicksand", sans-serif;
+}
+
+.main {
+  display: table-cell;
+  top: px;
+  padding: 10px 10px 10px 12px;
+  height: 485px;
+  width: 25%;
+  margin-top: 1rem;
+  margin-left: 840px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  display: block;
+  background-color: transparent;
+  border-radius: 12px;
+  font-weight: bold;
+  /*border colour*/
+  border: 3px solid lightseagreen;
+}
+
+input {
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+  transition: 0.5s all ease-in-out;
+}
+
+
+
+input:hover {
+  /*change the colours as you wish this colours show when hovering the inputs*/
+  
+  background-color: rgb(44, 130, 230);
+  transition: 0.3s all ease-in;
+}
+
+input:hover::placeholder{
+  /*change the placeholder colour as you wish this colours show when hovering the inputs*/
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+input::placeholder{
+    color: black;
+    opacity: 0.6;
+}
+
+input:focus{
+    opacity: 2;
+}
+
+
+
+p.signup_link {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+h2.Signup {
+  text-align: center;
+  margin-top: -25px;
+  font-size: 40px;
+  /*Login text colour*/
+  background-image: linear-gradient(
+    45deg,
+    rgb(10, 221, 203),
+    rgb(111, 50, 182)
+  );
+
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+button {
+  /*button font*/
+  font-family: "Quicksand", sans-serif;
+  
+  cursor: pointer;
+  width: 75%;
+  height: 40px;
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 45px;
+  border-radius: 30px;
+  transition: 0.5s all ease-in-out;
+}
+
+button > p {
+  margin: -15px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+button:hover {
+  /*change the colours as you wish this colours show when hovering the button*/
+  background-color: rgb(44, 130, 230);
+  transition: 0.3s all ease-in;
+  color: white;
+}
+
+section.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.icons > a > img {
+  margin-left: 35px;
+  width: 40%;
+}
+
+/*some normal responsiveness for mobiles & other devices*/
+@media only screen and (max-width: 768px) {
+    .main {
+      display: block;
+      width: 40%;
+      height: 29rem;
+      margin-top: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    body {
+      background-image: none !important;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      margin: auto;
+    }
+  
+    form input {
+      width: 95%;
+      margin-left: 5px;
+    }
+  
+    form label {
+      margin-left: 5px;
+    }
+  
+    button {
+      margin-left: 2px;
+      width: 100%;
+    }
+  
+    h2.login {
+      text-align: center;
+    }
+  
+    section.icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    section.icons > a > img {
+      margin-left: 25px;
+      width: 45%;
+    }
+  }
