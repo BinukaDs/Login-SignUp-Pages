@@ -1,5 +1,6 @@
 body {
   background-repeat: no-repeat;
+  background-color: white;
   background-size: fit;
   display: flex;
   /*your website's font*/
