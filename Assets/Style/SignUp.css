@@ -9,7 +9,6 @@ body {
 
 .main {
   display: table-cell;
-  top: px;
   padding: 10px 10px 10px 12px;
   height: 485px;
   width: 25%;
@@ -128,8 +127,9 @@ section.icons > a > img {
 @media only screen and (max-width: 768px) {
     .main {
       display: block;
+      align-items: center;
       width: 40%;
-      height: 29rem;
+      height: 30rem;
       margin-top: 15px;
       margin-left: auto;
       margin-right: auto;
@@ -145,7 +145,7 @@ section.icons > a > img {
   
     form input {
       width: 95%;
-      margin-left: 5px;
+      
     }
   
     form label {
